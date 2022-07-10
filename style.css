@@ -1,0 +1,37 @@
+.content__wrapper{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form--custom{
+  width:auto;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.delete {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+.star {
+  color: #ddd;
+}
+.important {
+  color: red;
+  font-weight: bold;
+}
+
+li>label {
+  width: 210px;
+  margin-bottom: 0.5rem;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
